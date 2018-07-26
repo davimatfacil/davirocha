@@ -5,7 +5,7 @@ title: "Davi  Website"
 _Look at how cool this plot is!__
 
 $$Y = \alpha \cdot \sin(X), \alpha = 0,0.1,0.2,...,3$$
-
+ 
 
 ```{r, echo = FALSE, fig.align='center'}
 library(tidyverse)
