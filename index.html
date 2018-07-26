@@ -216,12 +216,17 @@ $(document).ready(function () {
 </div>
 <div id="remove-before-ticks-to-get-this-to-work.-1" class="section level2">
 <h2>Remove # before ticks to get this to work.</h2>
-</div>
-<div id="r-echo-false-fig.aligncenter" class="section level1">
-<h1>```{r, echo = FALSE, fig.align=‘center’}</h1>
-<p>library(tidyverse) cool_function &lt;- function(x, alpha) return(sin(alpha<em>x)) xs &lt;- seq(0, pi</em>1.5, 0.005) ys &lt;- cool_function(xs, 1) results &lt;- data_frame(xs, ys, alpha = “1”) for(alpha in seq(0,3, 0.1)){ results &lt;- results %&gt;% bind_rows(data_frame( xs, ys = cool_function(xs, alpha), alpha = as.character(alpha) )) }</p>
-<p>ggplot(results, aes(x = xs, y = ys, color = alpha)) + geom_line() + theme_bw() + theme(legend.position=“none”) #``````{r, echo = FALSE, fig.align=‘center’} library(tidyverse) cool_function &lt;- function(x, alpha) return(sin(alpha<em>x)) xs &lt;- seq(0, pi</em>1.5, 0.005) ys &lt;- cool_function(xs, 1) results &lt;- data_frame(xs, ys, alpha = “1”) for(alpha in seq(0,3, 0.1)){ results &lt;- results %&gt;% bind_rows(data_frame( xs, ys = cool_function(xs, alpha), alpha = as.character(alpha) )) }</p>
-<p>ggplot(results, aes(x = xs, y = ys, color = alpha)) + geom_line() + theme_bw() + theme(legend.position=“none”) #```</p>
+<pre><code>## Warning: package &#39;tidyverse&#39; was built under R version 3.4.4</code></pre>
+<pre><code>## -- Attaching packages --------------------------------------- tidyverse 1.2.1 --</code></pre>
+<pre><code>## v ggplot2 2.2.1     v purrr   0.2.4
+## v tibble  1.3.4     v dplyr   0.7.4
+## v tidyr   0.7.2     v stringr 1.2.0
+## v readr   1.1.1     v forcats 0.3.0</code></pre>
+<pre><code>## Warning: package &#39;forcats&#39; was built under R version 3.4.4</code></pre>
+<pre><code>## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" /><img src="index_files/figure-html/unnamed-chunk-1-2.png" width="672" style="display: block; margin: auto;" /></p>
 </div>
 
 
