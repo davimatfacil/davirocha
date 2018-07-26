@@ -4,7 +4,7 @@ title: "About Me"
 
 - __Name:__ Davi 
 - __Ocupation:__ "Professor universitario"
-- __Hobbies:__ Jogar video-game.  
+- __Hobbies:__  Jogar video-game.  
 
 Here is a super cool photo of me doing one of my favorite things, yawning. 
 
