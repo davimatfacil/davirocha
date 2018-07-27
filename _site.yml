@@ -13,6 +13,5 @@ navbar:
       href: about.html
 output:
   html_document:
-    #theme: flatly
-     theme: darkly
-    css: style.css
+     theme: flatly
+     css: style.css
