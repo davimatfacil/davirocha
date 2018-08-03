@@ -6,6 +6,6 @@ title: "About Me"
 - __Ocupation:__ "Professor universitario"
 - __Hobbies:__  viajar.  
 
-Here is a super cool photo of me doing one of my favorite things, yawning. 
+Bem vindo. Sou o prof. Davi. Estatístico no Hospital das Clínicas e Prof. Universitário
 
 ![](Foto_davi.jpg)
